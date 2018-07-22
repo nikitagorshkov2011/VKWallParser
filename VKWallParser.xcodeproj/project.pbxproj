@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56AB7887689DA53EC0DBC461 /* Pods_VKWallParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FD95C7BE7CD9FDC712A870 /* Pods_VKWallParser.framework */; };
+		843294BC2101E87800646F9F /* WallPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843294BB2101E87700646F9F /* WallPost.swift */; };
+		846386CB2100AEFB00ED190B /* VKDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846386CA2100AEFB00ED190B /* VKDelegate.swift */; };
 		84A154A32100A48300EFEE56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A154A22100A48300EFEE56 /* AppDelegate.swift */; };
 		84A154A52100A48300EFEE56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A154A42100A48300EFEE56 /* ViewController.swift */; };
 		84A154A82100A48300EFEE56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A154A62100A48300EFEE56 /* Main.storyboard */; };
 		84A154AA2100A49600EFEE56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A154A92100A49600EFEE56 /* Assets.xcassets */; };
 		84A154AD2100A49600EFEE56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A154AB2100A49600EFEE56 /* LaunchScreen.storyboard */; };
+		84A154B52100A4D100EFEE56 /* APIWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A154B42100A4D100EFEE56 /* APIWorker.swift */; };
+		84E9851D2104C5CA003F827D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9851C2104C5CA003F827D /* User.swift */; };
+		84E985202104CD45003F827D /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9851F2104CD45003F827D /* Group.swift */; };
+		84EC1DC32104A4930051A7F8 /* WallPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC1DC22104A4930051A7F8 /* WallPostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00FCA0037D706482ADBFC33E /* Pods-VKWallParser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKWallParser.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKWallParser/Pods-VKWallParser.release.xcconfig"; sourceTree = "<group>"; };
+		15FD95C7BE7CD9FDC712A870 /* Pods_VKWallParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VKWallParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		843294BB2101E87700646F9F /* WallPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallPost.swift; sourceTree = "<group>"; };
+		846386CA2100AEFB00ED190B /* VKDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKDelegate.swift; sourceTree = "<group>"; };
 		84A1549F2100A48200EFEE56 /* VKWallParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKWallParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A154A22100A48300EFEE56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84A154A42100A48300EFEE56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,11 @@
 		84A154A92100A49600EFEE56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A154AC2100A49600EFEE56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A154AE2100A49600EFEE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A154B42100A4D100EFEE56 /* APIWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIWorker.swift; sourceTree = "<group>"; };
+		84E9851C2104C5CA003F827D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		84E9851F2104CD45003F827D /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		84EC1DC22104A4930051A7F8 /* WallPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallPostCell.swift; sourceTree = "<group>"; };
+		E9D95AA7B8A597C37D7AA07C /* Pods-VKWallParser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKWallParser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKWallParser/Pods-VKWallParser.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56AB7887689DA53EC0DBC461 /* Pods_VKWallParser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				84A154A12100A48200EFEE56 /* VKWallParser */,
 				84A154A02100A48200EFEE56 /* Products */,
+				CB30DA710562997B76E2528C /* Pods */,
+				93E714AF697574DF1F76AC59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +74,36 @@
 			isa = PBXGroup;
 			children = (
 				84A154A22100A48300EFEE56 /* AppDelegate.swift */,
+				84A154B42100A4D100EFEE56 /* APIWorker.swift */,
 				84A154A42100A48300EFEE56 /* ViewController.swift */,
+				846386CA2100AEFB00ED190B /* VKDelegate.swift */,
+				843294BB2101E87700646F9F /* WallPost.swift */,
+				84EC1DC22104A4930051A7F8 /* WallPostCell.swift */,
 				84A154A62100A48300EFEE56 /* Main.storyboard */,
 				84A154A92100A49600EFEE56 /* Assets.xcassets */,
 				84A154AB2100A49600EFEE56 /* LaunchScreen.storyboard */,
 				84A154AE2100A49600EFEE56 /* Info.plist */,
+				84E9851C2104C5CA003F827D /* User.swift */,
+				84E9851F2104CD45003F827D /* Group.swift */,
 			);
 			path = VKWallParser;
+			sourceTree = "<group>";
+		};
+		93E714AF697574DF1F76AC59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15FD95C7BE7CD9FDC712A870 /* Pods_VKWallParser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB30DA710562997B76E2528C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9D95AA7B8A597C37D7AA07C /* Pods-VKWallParser.debug.xcconfig */,
+				00FCA0037D706482ADBFC33E /* Pods-VKWallParser.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84A154B12100A49600EFEE56 /* Build configuration list for PBXNativeTarget "VKWallParser" */;
 			buildPhases = (
+				ABC2C9592BAF403684B6714B /* [CP] Check Pods Manifest.lock */,
 				84A1549B2100A48200EFEE56 /* Sources */,
 				84A1549C2100A48200EFEE56 /* Frameworks */,
 				84A1549D2100A48200EFEE56 /* Resources */,
+				6751B7C3AFDC000317B6F4D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +174,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6751B7C3AFDC000317B6F4D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VKWallParser/Pods-VKWallParser-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyVK/SwiftyVK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyVK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VKWallParser/Pods-VKWallParser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC2C9592BAF403684B6714B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VKWallParser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84A1549B2100A48200EFEE56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				84A154A52100A48300EFEE56 /* ViewController.swift in Sources */,
+				84A154B52100A4D100EFEE56 /* APIWorker.swift in Sources */,
 				84A154A32100A48300EFEE56 /* AppDelegate.swift in Sources */,
+				84E985202104CD45003F827D /* Group.swift in Sources */,
+				84EC1DC32104A4930051A7F8 /* WallPostCell.swift in Sources */,
+				846386CB2100AEFB00ED190B /* VKDelegate.swift in Sources */,
+				843294BC2101E87800646F9F /* WallPost.swift in Sources */,
+				84E9851D2104C5CA003F827D /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +367,7 @@
 		};
 		84A154B22100A49600EFEE56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D95AA7B8A597C37D7AA07C /* Pods-VKWallParser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +385,7 @@
 		};
 		84A154B32100A49600EFEE56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00FCA0037D706482ADBFC33E /* Pods-VKWallParser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
