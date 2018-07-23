@@ -24,10 +24,12 @@ struct WallPost: Codable {
     
     let copy_history: [WallPost]?
     
-    let comments: Comments
-    let likes: Likes
-    let reposts: Reposts
+    let comments: Comments?
+    let likes: Likes?
+    let reposts: Reposts?
     let views: Views?
+    
+    let from_id: Int
         
 }
 
@@ -50,8 +52,9 @@ struct Views: Codable {
 struct Attachment: Codable {
     let type: String
     let photo: Photo?
+    let posted_photo: PostedPhoto?
     let video: Video?
-    
+    let audio: Audio?
 }
 
 struct Photo: Codable {
@@ -66,11 +69,23 @@ struct PhotoSize: Codable {
     let height: Int
 }
 
+struct PostedPhoto: Codable {
+    let id: Int
+    let photo_130: String
+    let photo_604: String
+}
+
 struct Video: Codable {
     let title: String
     let duration: Int
     let photo_130: String
     let photo_320: String
+}
+
+struct Audio: Codable {
+    let artist: String
+    let title: String
+    let duration: Int
 }
     
     

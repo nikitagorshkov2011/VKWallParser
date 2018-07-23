@@ -77,14 +77,14 @@
 				84A154B42100A4D100EFEE56 /* APIWorker.swift */,
 				84A154A42100A48300EFEE56 /* ViewController.swift */,
 				846386CA2100AEFB00ED190B /* VKDelegate.swift */,
+				84E9851C2104C5CA003F827D /* User.swift */,
+				84E9851F2104CD45003F827D /* Group.swift */,
 				843294BB2101E87700646F9F /* WallPost.swift */,
 				84EC1DC22104A4930051A7F8 /* WallPostCell.swift */,
 				84A154A62100A48300EFEE56 /* Main.storyboard */,
 				84A154A92100A49600EFEE56 /* Assets.xcassets */,
 				84A154AB2100A49600EFEE56 /* LaunchScreen.storyboard */,
 				84A154AE2100A49600EFEE56 /* Info.plist */,
-				84E9851C2104C5CA003F827D /* User.swift */,
-				84E9851F2104CD45003F827D /* Group.swift */,
 			);
 			path = VKWallParser;
 			sourceTree = "<group>";

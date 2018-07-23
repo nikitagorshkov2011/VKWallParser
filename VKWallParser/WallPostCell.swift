@@ -26,6 +26,9 @@ class WallPostCell: UITableViewCell {
     @IBOutlet weak var audioView: UIView!
     @IBOutlet weak var audioViewHeight: NSLayoutConstraint!
     
+    @IBOutlet weak var audioAndImagesDist: NSLayoutConstraint!
+    @IBOutlet weak var postTextAndImagesDist: NSLayoutConstraint!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
